@@ -46,6 +46,21 @@ module.exports = {
             directory: path.join(__dirname, "build"),
         },
         port: 3000,
+        // proxy: [
+        //     {
+        //         context: ['/api'],
+        //         target: 'http://192.168.1.136:8181/sensorhub',
+        //         changeOrigin: true,
+        //         pathRewrite: { '^/api': '' }
+        //     }
+        // ]
+        // proxy: [
+        //     {
+        //         context: ['/sos'],
+        //         target: 'http://192.168.1.136:8181/sensorhub',
+        //         changeOrigin: true
+        //     }
+        // ]
     },
     module: {
         // exclude node_modules

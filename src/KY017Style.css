@@ -1,0 +1,46 @@
+/* KY017Data.css */
+.page-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f4f8;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.status-label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+}
+
+.status-waiting {
+    background-color: #6b7280;
+}
+
+.status-tilted {
+    background-color: #dc2626;
+}
+
+.status-level {
+    background-color: #16a34a;
+}
+
+.chart-container {
+    height: 350px;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
