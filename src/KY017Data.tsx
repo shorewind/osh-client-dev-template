@@ -16,7 +16,7 @@ export default function KY017Data(props: any) {
         const dataSource = new SweApi("KY017", {
             protocol: "ws",
             endpointUrl: `${props.server}/api`,
-            resource: `/datastreams/${props.ObservableId}/observations`,
+            resource: `/datastreams/${props.datastreamId}/observations`,
             mode: Mode.REAL_TIME
         });
 

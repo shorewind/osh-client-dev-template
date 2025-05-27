@@ -12,10 +12,10 @@ export default function KY017App() {
         // secure:true,
 
         // for connected systems api
-        ObservableId:"c9quh2smsefpa",
-        // for sos api
-        SerialNumber:"urn:osh:sensor:trainingky017",
-        OutputFieldDefinition:"http://sensorml.com/ont/swe/property/tilted"
+        datastreamId:"te9ag8uimc4ai",  // see {server}/api/datastreams
+        // for sos api, from node dev, see {server}/sos?service=SOS&request=GetCapabilities
+        uniqueIdentifier:"urn:osh:sensor:trainingky017",
+        observableProperty:"http://sensorml.com/ont/swe/property/tilted"
     }
 
     return (
