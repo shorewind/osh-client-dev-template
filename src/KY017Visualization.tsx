@@ -32,6 +32,7 @@ interface Props {
     history: HistoryPoint[];
 }
 
+// step function line chart to graph the binary tilted state
 export default function KY017Visualization({ isTilted, history }: Props) {
     // Note: don't show graph without data
     // if (history.length === 0) {
